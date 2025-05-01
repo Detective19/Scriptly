@@ -1,0 +1,24 @@
+.content-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+  
+  .content-section {
+    margin-bottom: 3rem;
+  }
+  
+  .content-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+  }
+  
+  .content-text {
+    margin-bottom: 1rem;
+  }
+  
+  .content-code-example {
+    margin: 1rem 0;
+  }

@@ -1,0 +1,150 @@
+.about-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+  
+  .about-section {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .about-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .about-icon-container {
+    width: 10rem;
+    height: 10rem;
+    background-color: var(--color-primary);
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .about-content {
+    padding-left: 0;
+  }
+  
+  .about-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+  }
+  
+  .about-text {
+    color: var(--color-gray-700);
+    margin-bottom: 1rem;
+  }
+  
+  .about-subtitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--color-primary);
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .about-card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+  }
+  
+  .about-card-image {
+    width: 6rem;
+    height: 6rem;
+    background-color: var(--color-gray-200);
+    border-radius: 9999px;
+    margin: 0 auto 1rem;
+  }
+  
+  .about-card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+  }
+  
+  .about-card-role {
+    color: var(--color-primary);
+    margin-bottom: 0.5rem;
+  }
+  
+  .about-card-description {
+    color: var(--color-gray-600);
+  }
+  
+  .about-values {
+    background-color: var(--color-primary);
+    color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+  }
+  
+  .about-value {
+    display: flex;
+    margin-bottom: 2rem;
+  }
+  
+  .about-value-number {
+    margin-right: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: white;
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .about-value-number span {
+    color: var(--color-primary);
+    font-weight: 700;
+  }
+  
+  .about-value-title {
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  @media (min-width: 768px) {
+    .about-flex {
+      flex-direction: row;
+    }
+  
+    .about-icon-container {
+      width: 33.333333%;
+      margin-bottom: 0;
+    }
+  
+    .about-content {
+      width: 66.666667%;
+      padding-left: 3rem;
+    }
+  
+    .about-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+    }
+  
+    .about-values-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+    }
+    
+    .about-value:last-child {
+      margin-bottom: 0;
+    }
+  }
