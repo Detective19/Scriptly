@@ -1,12 +1,51 @@
-# React + Vite
+Scriptly ⚡
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A JavaScript learning platform
 
-Currently, two official plugins are available:
+Scriptly is a modern JavaScript learning website built using React + Vite, designed for fast performance, smooth development experience, and clean UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project was created while exploring AI-powered website building tools, specifically Lovable, to understand how AI can assist in rapid frontend development and project scaffolding.
 
-## Expanding the ESLint configuration
+Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React – Component-based UI development
+
+Vite – Lightning-fast bundler with Hot Module Replacement (HMR)
+
+ESLint – Code quality and consistency
+
+JavaScript (ES6+)
+
+React + Vite Setup
+
+This project uses the official Vite React template, providing a minimal yet powerful setup with HMR and ESLint rules.
+
+Currently, two official React plugins are available:
+
+@vitejs/plugin-react
+Uses Babel for Fast Refresh
+
+@vitejs/plugin-react-swc
+Uses SWC for Fast Refresh (faster builds)
+
+Purpose of Scriptly
+
+Learn and practice JavaScript concepts
+
+Experiment with AI-assisted website generation
+
+Understand modern React project structures
+
+Explore how tools like Lovable can speed up frontend development
+
+ESLint & Best Practices
+
+For production-grade applications, it’s recommended to:
+
+Use TypeScript
+
+Enable type-aware ESLint rules
+
+Follow scalable folder structures
+
+You can check out the official Vite React TypeScript template for advanced linting and type safety.
